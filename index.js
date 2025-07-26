@@ -69,5 +69,5 @@ cron.schedule('0 2 * * 0', async () => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`🚀 RedM Analytics Bot running on http://localhost:${PORT}`);
+  console.log(`🚀 RedM Analytics Bot running on port ${PORT}`);
 });
